@@ -1,7 +1,15 @@
-class First{
-    public static void main(String[] args) {
-        System.out.println(args[0]);
-        System.out.println(args[1]);
+import java.util.*;
 
+class First{
+    public static void main(String args[])
+    { 
+Scanner sc = new Scanner(System.in);  
+System.out.println("Enter of value a");
+int a = sc.nextInt();
+System.out.println("Enter of value b");
+int b = sc.nextInt();
+int sum =a+b;
+System.out.println("Sum is  " + sum );
+sc.close();
     }
-}
+}           
